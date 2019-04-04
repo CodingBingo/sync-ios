@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MaltbabySync_Example' do
+  pod 'MaltbabySync', :path => '../'
+
+  target 'MaltbabySync_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
